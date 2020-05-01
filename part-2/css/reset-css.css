@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 span:nth-child(1) {
+	color: blue;
+}
+
+h1 span:nth-child(2) {
+	color: red;
+}
+
+.flexbox-container {
+	width: 100%;
+	border: 5px solid blue;
+	padding: 5px;
+}
+
+.flexbox-item {
+	border: 2px solid red;
+	text-align: center;
+}

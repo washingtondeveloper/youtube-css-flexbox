@@ -1,0 +1,26 @@
+/* Codigo FlexBox*/
+.flexbox-container {
+	width: 20%;
+	height: 200px;
+	display: flex;
+
+	flex-direction: column-reverse;
+	flex-direction: row-reverse;
+	flex-direction: row;
+	flex-direction: column;
+
+	flex-wrap: nowrap;
+	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
+
+	flex-flow: row nowrap;
+	flex-flow: row wrap;
+	flex-flow: row wrap-reverse;
+	flex-flow: column nowrap;
+	flex-flow: column wrap;
+	flex-flow: column wrap-reverse;
+}
+
+.flexbox-item {
+	font-size: 40px;
+}
