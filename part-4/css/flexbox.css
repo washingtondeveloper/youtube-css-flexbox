@@ -1,27 +1,21 @@
 /* Codigo FlexBox*/
 .flexbox-container {
-  width: 50%;
+  width: 70%;
   height: 400px;
   display: flex;
-  flex-direction: row;
-
   flex-direction: column;
+  flex-wrap: wrap;
 
-  justify-content: flex-end;
-  justify-content: space-between;
-  justify-content: space-around;
-  justify-content: flex-start;
-  justify-content: center;
-
-  align-items: flex-start;
-  align-items: flex-end;
-  align-items: baseline;
-  align-items: stretch;
-  align-items: center;
+  align-content: stretch;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: center;
+  align-content: flex-start;
+  align-content: flex-end;
 }
 
 .flexbox-item {
   font-size: 40px;
-  width: 100px;
+  /* width: 150px; */
   height: 100px;
 }
