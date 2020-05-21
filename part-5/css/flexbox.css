@@ -1,0 +1,13 @@
+/* Codigo FlexBox*/
+.flexbox-container {
+  width: 70%;
+  height: 80px;
+  display: flex;
+}
+
+.flexbox-item {
+  font-size: 50px;
+
+  flex-grow: 0;
+  flex-grow: 1;
+}
