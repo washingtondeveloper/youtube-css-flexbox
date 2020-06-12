@@ -1,0 +1,12 @@
+/* Codigo FlexBox*/
+.flexbox-container {
+  width: 40%;
+  height: 200px;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.flexbox-item {
+  font-size: 50px;
+}
